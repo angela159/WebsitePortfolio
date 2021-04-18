@@ -369,6 +369,38 @@ hr {
     border-radius: 1rem;
 }
 
+.banner-ads,
+.email-blasts {
+    padding: 90px 10% 0;
+}
+
+.banner-collection,
+.rectangle-banner-collection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.emails-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 20px;
+    align-items: start;
+}
+
+
+.skyscraper-banner,
+.rectangle-banner {
+    width: 20%;
+    padding: 10px;
+}
+
+.emails {
+    width: 25%;
+    padding: 10px;
+}
+
 /* ABPUT ME */
 .bio-container {
     background-color: #112d4e;
@@ -652,7 +684,22 @@ hr {
         text-align: center;
     }
 
+    .skyscraper-banner,
+    .rectangle-banner {
+        width: 40%;
+        padding: 10px;
+    }
 
+    .emails-container {
+        justify-content: center;
+
+    }
+
+    .emails {
+        width: 45%;
+        padding: 10px;
+        align-self: center;
+    }
 
     .bio-text {
         text-align: center;

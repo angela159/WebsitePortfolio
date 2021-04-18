@@ -1,0 +1,690 @@
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+h2,
+h3,
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+a {
+    font-size: 1rem;
+    box-sizing: content-box;
+}
+
+a:hover {
+    color: #3f72af;
+    outline: none;
+}
+
+/***** INDEX PAGE *****/
+.intro-container {
+    background-color: #112d4e;
+    text-align: center;
+    padding: 80px 28%;
+}
+
+.intro-logo {
+    width: 120px;
+}
+
+.intro-header {
+    padding-top: 40px;
+}
+
+.intro-subheader-text {
+    color: #f9f7f7;
+    padding: 0 0 30px;
+}
+
+.intro-description {
+    color: #f9f7f7;
+}
+
+.intro-link {
+    color: #3f72af;
+    text-decoration: none;
+}
+
+.designs-container {
+    background-color: #dbe2ef;
+    padding: 120px 20% 0;
+}
+
+.design-type-container {
+    padding-bottom: 100px;
+}
+
+.design-type-icon {
+    width: 100%;
+}
+
+.design-type-text {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.design-type-header,
+.design-type-body {
+    padding-bottom: 10px;
+}
+
+.projects-button {
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #3f72af;
+    border: solid #3F72AF 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+}
+
+.projects-button:hover {
+    background: #112d4e;
+    border: solid 1px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+.navigation {
+    background-color: #112d4e;
+    padding: 30px 5%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    text-align: center;
+    hov
+}
+
+.navbar-dark .navbar-toggler {
+    color: #f9f7f7;
+    border: none;
+}
+
+.logo {
+    width: 100px;
+    padding-right: 30px;
+}
+
+.header-link {
+    color: #f9f7f7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* LANDING PAGES */
+.projects-landing-page {
+    background-color: #f9f7f7;
+    text-align: center;
+    padding: 90px 10%;
+}
+
+.projects-image {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+}
+
+/* BG COLOR TEXT */
+.light-bg-text {
+    color: #3f72af;
+}
+
+.dark-bg-text {
+    color: #f9f7f7;
+}
+
+/* MORE PROJECTS FOOTER */
+.designs-footer {
+    background-color: #dbe2ef;
+    padding: 50px 10% 70px;
+    text-align: center;
+}
+
+.design-footer-images {
+    width: 20%;
+    margin: 20px 20px 0;
+    border-radius: 1rem;
+}
+
+/* PROJECT PAGES INTRO*/
+.projects-intro-container {
+    background-color: #dbe2ef;
+    padding: 90px 8%;
+    overflow: auto;
+}
+
+.projects-intro-image {
+    float: left;
+    width: 50%;
+    position: relative;
+    border-radius: 1rem;
+    margin-right: 30px;
+}
+
+.projects-header {
+    padding-bottom: 10px;
+}
+
+/* PROJECT PAGES PROCESS */
+#project-body-container {
+    background-color: #f9f7f7;
+}
+
+.process-container {
+    padding: 120px 10% 0;
+}
+
+.process-images-container {
+    padding-left: 5%;
+}
+
+.process-header {
+    padding-bottom: 20px;
+}
+
+.process-image {
+    width: 45%;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.final-fullwidth-image {
+    width: 100%;
+}
+
+.final-halfcolumn-image {
+    width: 80%;
+}
+
+/* HORIZONTAL LINE */
+hr {
+    border-top: 4px dotted;
+    background-color: #f9f7f7;
+    color: #3f72af;
+    opacity: 90%;
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* BOMBSHELL PROJECT */
+.bombshell-final {
+    padding: 30px 10% 0;
+    text-align: center;
+}
+
+.bombshell-fragrance-bar,
+.bombshell-tables {
+    padding-bottom: 100px;
+}
+
+/* PINK BEAUTY */
+.pink-products {
+    border-radius: 1rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.pink-final-container {
+    padding: 10px 10% 0;
+}
+
+.pink-final-image {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 1rem;
+}
+
+/* HIGHLIGHTER */
+.highlighter-elements-container {
+    padding: 60px 10% 0;
+}
+
+.element-overview {
+    margin: 20px 0 40px;
+    border-radius: 1rem;
+}
+
+.highlighter-final {
+    padding: 0 10% 20px;
+}
+
+.highlighter-final-images {
+    border-radius: 1rem;
+    margin-top: 50px;
+}
+
+.highlighter-process-container {
+    margin-bottom: 40px;
+}
+
+/* NIKE */
+.inspiration-container {
+    text-align: center;
+}
+
+.nike-process-images {
+    height: 170px;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.nike-sketches-container {
+    padding: 60px 10% 0;
+}
+
+.nike-sketch-images {
+    text-align: center;
+}
+
+.nike-sketches {
+    height: 140px;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.nike-planogram {
+    padding: 60px 10% 40px;
+}
+
+.nike-final {
+    padding: 0 10% 20px;
+}
+
+.nike-final-image {
+    border-radius: 2rem;
+    margin-top: 40px;
+}
+
+/* MALL BANNERS */
+.mall-banners-intro {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.mall-banners-final {
+    padding: 20px 10% 20px;
+}
+
+.mall-banners-final-image {
+    border-radius: 1rem;
+    margin-top: 60px;
+}
+
+/* MARKETING */
+.marketing-intro {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.marketing-headers {
+    text-align: center;
+}
+
+.marketing-final,
+.office-marketing {
+    padding: 90px 10% 0;
+}
+
+.marketing-final-image {
+    margin-top: 20px;
+}
+
+.office-marketing-image {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 1rem;
+}
+
+/* ABPUT ME */
+.bio-container {
+    background-color: #112d4e;
+    padding: 100px 15%;
+}
+
+.bio-logo {
+    width: 10%;
+    padding-right: 15px;
+}
+
+.bio-text {
+    text-align: left;
+    padding-right: 25%;
+}
+
+.bio-header {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.bio-link-images {
+    width: 7%;
+    padding-right: 15px;
+}
+
+.bio-designs-container {
+    background-color: #dbe2ef;
+    padding: 80px 15%;
+}
+
+.bio-design-column {
+    text-align: center;
+}
+
+.bio-design-icon {
+    width: 80%;
+}
+
+.bio-design-header {
+    font-size: 1.125rem;
+    line-height: 1.25;
+    padding-top: 30px;
+}
+
+/* CAROUSELS */
+.carousel-container {
+    padding: 90px 20% 0;
+}
+
+.carousel-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.carousel-inner {
+    width: 100%;
+    border: .5px solid #3f72af;
+}
+
+.carousel-control-prev {
+    opacity: .75;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.carousel-control-next {
+    opacity: .75;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.carousel-button {
+    width: 25%;
+}
+
+/* BACK TO TOP */
+.sub-footer {
+    padding: 30px 10%;
+    text-align: right;
+}
+
+.backtotop-bottom {
+    width: 5%;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #112d4e;
+    padding: 30px 10% 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 5%;
+}
+
+.footer-links {
+    color: #f9f7f7;
+    font-size: 1rem;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+/***** RESPONSIVE SETTING WIDTH 1201*****/
+@media screen and (max-width:1201px) {
+    .navigation {
+        padding: 30px 10%;
+    }
+
+    .projects-button {
+        width: 150px;
+    }
+
+    .projects-landing-page {
+        padding: 90px 10% 60px;
+    }
+
+    .projects-selection {
+        padding-bottom: 30px;
+    }
+
+    .design-footer-images {
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+    }
+
+    .projects-intro-container {
+        padding: 90px 15%;
+    }
+
+    .process-container {
+        padding: 80px 10% 0;
+    }
+
+    .process-images-container {
+        padding: 20px 0 0;
+        text-align: center;
+    }
+
+    .bombshell-final {
+        padding-top: 15px;
+    }
+
+    .bombshell-fragrance-bar,
+    .bombshell-tables {
+        padding-bottom: 40px;
+    }
+
+    .bombshell-tables-image {
+        padding: 20px 0 20px;
+    }
+
+    .pink-products {
+        border-radius: 1rem;
+    }
+
+    .pink-final-container {
+        padding: 60px 10% 20px;
+    }
+
+    .mall-banners-final-image {
+        border-radius: 1rem;
+        margin-top: 60px;
+    }
+
+    .marketing-final,
+    .office-marketing {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .marketing-headers {
+        text-align: center;
+    }
+
+    .marketing-final-image,
+    .office-marketing-image {
+        margin-top: 30px;
+    }
+
+    .carousel-container {
+        padding: 80px 20% 0;
+    }
+
+    .bio-logo {
+        width: 12%;
+    }
+
+    .bio-link-images {
+        width: 10%;
+    }
+
+    .bio-designs-column {
+        padding: 20px 0 0;
+    }
+}
+
+/***** MOBILE SETTING WIDTH 991 *****/
+@media screen and (max-width:991px) {
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: .825rem;
+    }
+
+    .intro-container {
+        padding: 80px 10%;
+    }
+
+    .intro-logo {
+        width: 100px;
+    }
+
+    .designs-container {
+        text-align: center;
+    }
+
+    .design-type-icon {
+        width: 50%;
+        padding-bottom: 40px;
+    }
+
+    .design-type-text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .projects-intro-image {
+        float: none;
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .projects-intro-container {
+        text-align: center;
+    }
+
+    .process-container {
+        text-align: center;
+    }
+
+    .pink-header {
+        text-align: center;
+    }
+
+    .pink-products {
+        margin-bottom: 30px;
+    }
+
+    .pink-final-container {
+        padding: 10px 10% 0;
+    }
+
+    .elements-overview-header {
+        text-align: center;
+    }
+
+    .nike-sketches-container,
+    .nike-planogram {
+        text-align: center;
+    }
+
+
+
+    .bio-text {
+        text-align: center;
+        padding: 30px 0 0;
+    }
+
+    .bio-design-icon {
+        width: 40%;
+        padding-top: 30px;
+    }
+
+    .footer-links {
+        font-size: .75rem;
+    }
+}
+
+/*
+color:#112d4e
+color:#3f72af;
+color:#dbe2ef;
+color:#f9f7f7;
+
+.projects-intro-image {
+    width: 95%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+ .projects-intro-image {
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+*/

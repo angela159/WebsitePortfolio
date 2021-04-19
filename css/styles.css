@@ -123,7 +123,7 @@ a:hover {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.25rem;
     text-align: center;
-    hov
+
 }
 
 .navbar-dark .navbar-toggler {
@@ -501,12 +501,16 @@ hr {
 
 /* BACK TO TOP */
 .sub-footer {
-    padding: 30px 10%;
-    text-align: right;
+    padding: 40px 10% 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.backtotop-bottom {
-    width: 5%;
+.sub-footer-links {
+    color: #3f72af;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /* FOOTER */

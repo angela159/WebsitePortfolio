@@ -158,6 +158,10 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.projects-selection {
+    margin-top: 20px;
+}
+
 /* BG COLOR TEXT */
 .light-bg-text {
     color: #3f72af;
@@ -384,11 +388,9 @@ hr {
 .emails-container {
     display: flex;
     flex-wrap: wrap;
-
     padding-top: 20px;
     align-items: start;
 }
-
 
 .skyscraper-banner,
 .rectangle-banner {
@@ -398,7 +400,8 @@ hr {
 
 .emails {
     width: 25%;
-    padding: 10px;
+    padding: 0 10px 10px;
+    margin-top: 20px;
 }
 
 /* ABPUT ME */
@@ -518,10 +521,6 @@ hr {
 
     .projects-landing-page {
         padding: 90px 10% 60px;
-    }
-
-    .projects-selection {
-        padding-bottom: 30px;
     }
 
     .design-footer-images {
@@ -692,13 +691,11 @@ hr {
 
     .emails-container {
         justify-content: center;
-
     }
 
     .emails {
         width: 45%;
         padding: 10px;
-        align-self: center;
     }
 
     .bio-text {

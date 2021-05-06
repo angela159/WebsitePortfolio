@@ -11,7 +11,7 @@ p {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 
@@ -35,95 +35,15 @@ a:hover {
     outline: none;
 }
 
-/***** INDEX PAGE *****/
-.intro-container {
-    background-color: #112d4e;
-    text-align: center;
-    padding: 80px 28%;
-}
-
-.intro-logo {
-    width: 120px;
-}
-
-.intro-header {
-    padding-top: 40px;
-}
-
-.intro-subheader-text {
-    color: #f9f7f7;
-    padding: 10px 0 10px;
-}
-
-.intro-description {
-    color: #f9f7f7;
-}
-
-.intro-link {
-    color: #3f72af;
-    text-decoration: none;
-}
-
-.designs-container {
-    background-color: #dbe2ef;
-    padding: 120px 20% 0;
-}
-
-.design-type-container {
-    padding-bottom: 100px;
-}
-
-.design-type-icon {
-    width: 100%;
-}
-
-.design-type-text {
-    text-align: left;
-    padding-left: 30px;
-}
-
-.design-type-header,
-.design-type-body {
-    padding-bottom: 10px;
-}
-
-.projects-button {
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    border-radius: 45px;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 100;
-    padding: 10px;
-    background-color: #3f72af;
-    border: solid #3F72AF 0;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    width: 140px;
-}
-
-.projects-button:hover {
-    background: #112d4e;
-    border: solid 1px;
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    border-radius: 45px;
-    text-decoration: none;
-}
-
 /* NAVIGATION */
 .navigation {
     background-color: #112d4e;
-    padding: 30px 5%;
+    padding: 30px 10%;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.25rem;
     text-align: center;
-
 }
 
 .navbar-dark .navbar-toggler {
@@ -141,6 +61,50 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     text-decoration: none;
+}
+
+/***** INDEX PAGE *****/
+.designs-container {
+    background-color: #f9f7f7;
+    padding: 80px 10%;
+}
+
+.design-type-container {
+    padding-top: 40px;
+}
+
+.design-type-image-container {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.design-type-image-left {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 1rem;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.design-type-image-left:hover,
+.design-type-image-right:hover {
+    opacity: 30%;
+}
+
+.design-type-image-right {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 1rem;
+    border-left: none;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.design-type-header {
+    padding-bottom: 30px;
 }
 
 /* LANDING PAGES */
@@ -171,7 +135,7 @@ a:hover {
     color: #f9f7f7;
 }
 
-/* MORE PROJECTS FOOTER */
+/* MORE PROJECTS FOOTER 
 .designs-footer {
     background-color: #dbe2ef;
     padding: 50px 10% 70px;
@@ -182,21 +146,21 @@ a:hover {
     width: 20%;
     margin: 20px 20px 0;
     border-radius: 1rem;
-}
+} */
 
 /* PROJECT PAGES INTRO*/
 .projects-intro-container {
     background-color: #dbe2ef;
-    padding: 90px 8%;
+    padding: 90px 10%;
     overflow: auto;
 }
 
 .projects-intro-image {
     float: left;
-    width: 50%;
+    width: 45%;
     position: relative;
     border-radius: 1rem;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .projects-header {
@@ -209,11 +173,14 @@ a:hover {
 }
 
 .process-container {
-    padding: 120px 10% 0;
+    padding: 80px 10%;
 }
 
 .process-images-container {
-    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .process-header {
@@ -221,9 +188,14 @@ a:hover {
 }
 
 .process-image {
-    width: 45%;
-    padding: 10px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
     border-radius: 1rem;
+}
+
+.finals-header {
+    text-align: left;
 }
 
 .final-fullwidth-image {
@@ -234,7 +206,7 @@ a:hover {
     width: 80%;
 }
 
-/* HORIZONTAL LINE */
+/* HORIZONTAL LINE 
 hr {
     border-top: 4px dotted;
     background-color: #f9f7f7;
@@ -242,28 +214,22 @@ hr {
     opacity: 90%;
     width: 100%;
     margin: 30px 0;
-}
+} */
 
 /* BOMBSHELL PROJECT */
 .bombshell-final {
-    padding: 30px 10% 0;
+    padding: 80px 10% 0;
     text-align: center;
 }
 
 .bombshell-fragrance-bar,
 .bombshell-tables {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /* PINK BEAUTY */
-.pink-products {
-    border-radius: 1rem;
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
 .pink-final-container {
-    padding: 10px 10% 0;
+    padding: 80px 10% 0;
 }
 
 .pink-final-image {
@@ -272,15 +238,32 @@ hr {
     border-radius: 1rem;
 }
 
-/* TESLA */
-.tesla-floorplan {
-    border-radius: 1.125rem;
-    margin-top: 20px;
-    margin-bottom: 60px;
+/* HIGHLIGHTER */
+.highlighter-elements-container {
+    padding: 0 10% 30px;
 }
 
+.element-overview {
+    margin: 20px 0 40px;
+    border-radius: 1rem;
+}
+
+.highlighter-final {
+    padding: 0 10%;
+}
+
+.multiuse-highlighter-final {
+    padding: 40px 10% 0;
+}
+
+.highlighter-final-images {
+    border-radius: 1rem;
+    margin-top: 50px;
+}
+
+/* TESLA */
 .tesla-final-container {
-    padding: 10px 10% 0;
+    padding: 80px 10% 0;
 }
 
 .tesla-final-image {
@@ -291,69 +274,23 @@ hr {
     border-radius: 1rem;
 }
 
-/* HIGHLIGHTER */
-.highlighter-elements-container {
-    padding: 60px 10% 0;
-}
-
-.element-overview {
-    margin: 20px 0 40px;
-    border-radius: 1rem;
-}
-
-.highlighter-final {
-    padding: 0 10% 20px;
-}
-
-.highlighter-final-images {
-    border-radius: 1rem;
-    margin-top: 50px;
-}
-
-.highlighter-process-container {
-    margin-bottom: 40px;
-}
-
 /* NIKE */
-.inspiration-container {
-    text-align: center;
-}
-
-.nike-process-images {
-    height: 170px;
-    border-radius: 1rem;
-    padding: 10px;
-}
-
-.nike-sketches-container {
-    padding: 60px 10% 0;
-}
-
-.nike-sketch-images {
-    text-align: center;
-}
-
-.nike-sketches {
-    height: 140px;
-    border-radius: 1rem;
-    padding: 10px;
-}
-
 .nike-planogram {
-    padding: 60px 10% 40px;
+    padding: 80px 10% 80px;
 }
 
 .nike-final {
-    padding: 0 10% 20px;
+    padding: 0 10%;
 }
 
 .nike-final-image {
     border-radius: 2rem;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-/* MALL BANNERS */
-.mall-banners-intro {
+/* MALL BANNERS & MARKETING*/
+.mall-banners-intro,
+.marketing-intro {
     padding: 0 10%;
     text-align: center;
 }
@@ -367,34 +304,31 @@ hr {
     margin-top: 60px;
 }
 
-/* MARKETING */
-.marketing-intro {
-    padding: 0 10%;
-    text-align: center;
-}
-
 .marketing-headers {
     text-align: center;
 }
 
 .marketing-final,
 .office-marketing {
-    padding: 90px 10% 0;
+    padding: 80px 10% 0;
 }
 
 .marketing-final-image {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .office-marketing-image {
     width: 100%;
+    height: 90%;
+    object-fit: cover;
     margin-top: 20px;
     border-radius: 1rem;
 }
 
+/*JOHN VARVATOS*/
 .banner-ads,
 .email-blasts {
-    padding: 90px 10% 0;
+    padding: 80px 10% 0;
 }
 
 .banner-collection,
@@ -425,10 +359,10 @@ hr {
     margin-top: 20px;
 }
 
-/* ABPUT ME */
+/* ABOUT ME */
 .bio-container {
     background-color: #112d4e;
-    padding: 100px 15%;
+    padding: 60px 15% 100px;
 }
 
 .bio-logo {
@@ -443,31 +377,13 @@ hr {
 
 .bio-header {
     font-size: 2rem;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .bio-link-images {
     width: 7%;
+    padding-top: 10px;
     padding-right: 15px;
-}
-
-.bio-designs-container {
-    background-color: #dbe2ef;
-    padding: 80px 15%;
-}
-
-.bio-design-column {
-    text-align: center;
-}
-
-.bio-design-icon {
-    width: 80%;
-}
-
-.bio-design-header {
-    font-size: 1.125rem;
-    line-height: 1.25;
-    padding-top: 30px;
 }
 
 /* CAROUSELS */
@@ -524,7 +440,7 @@ hr {
 }
 
 .footer-logo {
-    width: 5%;
+    width: 4%;
 }
 
 .footer-links {
@@ -538,10 +454,6 @@ hr {
 @media screen and (max-width:1201px) {
     .navigation {
         padding: 30px 10%;
-    }
-
-    .projects-button {
-        width: 150px;
     }
 
     .projects-landing-page {
@@ -568,7 +480,7 @@ hr {
     }
 
     .bombshell-final {
-        padding-top: 15px;
+        padding-top: 80px;
     }
 
     .bombshell-fragrance-bar,
@@ -585,12 +497,12 @@ hr {
     }
 
     .pink-final-container {
-        padding: 60px 10% 20px;
+        padding: 80px 10% 20px;
     }
 
     .mall-banners-final-image {
         border-radius: 1rem;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .marketing-final,
@@ -619,10 +531,6 @@ hr {
     .bio-link-images {
         width: 10%;
     }
-
-    .bio-designs-column {
-        padding: 20px 0 0;
-    }
 }
 
 /***** MOBILE SETTING WIDTH 991 *****/
@@ -633,7 +541,7 @@ hr {
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     h3 {
@@ -654,16 +562,7 @@ hr {
 
     .designs-container {
         text-align: center;
-    }
-
-    .design-type-icon {
-        width: 50%;
-        padding-bottom: 40px;
-    }
-
-    .design-type-text {
-        text-align: center;
-        padding: 0;
+        padding: 30px 10% 70px;
     }
 
     .logo {
@@ -679,15 +578,11 @@ hr {
         margin-right: 0;
     }
 
-    .projects-intro-container {
-        text-align: center;
-    }
-
-    .process-container {
-        text-align: center;
-    }
-
-    .pink-header {
+    .projects-intro-container,
+    .process-container,
+    .finals-header,
+    .pink-header,
+    .elements-overview-header {
         text-align: center;
     }
 
@@ -696,11 +591,7 @@ hr {
     }
 
     .pink-final-container {
-        padding: 10px 10% 0;
-    }
-
-    .elements-overview-header {
-        text-align: center;
+        padding: 80px 10% 0;
     }
 
     .nike-sketches-container,
@@ -725,7 +616,12 @@ hr {
 
     .bio-text {
         text-align: center;
-        padding: 30px 0 0;
+        padding: 0;
+    }
+
+    .bio-link-images {
+        width: 15%;
+        padding: 10px 10px 0 10px;
     }
 
     .bio-design-icon {
@@ -747,17 +643,4 @@ color:#112d4e
 color:#3f72af;
 color:#dbe2ef;
 color:#f9f7f7;
-
-.projects-intro-image {
-    width: 95%;
-    height: 70%;
-    object-fit: cover;
-    border-radius: 1rem;
-}
- .projects-intro-image {
-        width: 95%;
-        height: 100%;
-        object-fit: cover;
-        margin-bottom: 50px;
-    }
 */
